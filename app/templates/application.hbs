@@ -1,0 +1,10 @@
+<div class="container">
+  <h1 class="jumbotron"> Welcome to Super Rentals </h1>
+  <ul class="nav nav-tabs">
+   <li role="presentation"><a href="/">Home</a></li>
+   <li role="presentation">{{#link-to 'about'}}About{{/link-to}}</li>
+   <li role="presentation">{{#link-to 'contact'}}Contact{{/link-to}}</li>
+   <li role="presentation">{{new-rental saveRental2="saveRental3"}}</li>
+  </ul>
+   {{outlet}}
+</div>

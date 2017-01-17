@@ -1,0 +1,21 @@
+<br>
+<h3>We hope you find exactly what you're looking for in a place to stay.</h3>
+<br>
+<ul>
+  {{#each model.rentals as |rental|}}
+     {{rental-tile rental=rental}}
+  {{/each}}
+</ul>
+
+{{!-- <h4>Reviews</h4>
+<div class="wells">
+  {{#each model.reviews as |review|}}
+    <h3>{{review.rating}} - {{review.content}} - by {{review.author}}</h3>
+  {{/each}}
+</div> --}}
+<!-- {{new-rental saveRental2="saveRental3"}} -->
+
+<!-- <br>
+{{#link-to 'about'}}About{{/link-to}}
+<br>
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}} -->

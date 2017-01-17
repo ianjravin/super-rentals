@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+img {
+  width: 50%;
+}
+.show-image {
+  background: transparent;
+  border: none;
+  color: blue;
+}
+.delete-rental {
+  background: transparent;
+  border: none;
+  color: red;
+}
+background-image : url("background.jpg");
